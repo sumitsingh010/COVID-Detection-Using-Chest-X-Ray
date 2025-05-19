@@ -39,7 +39,7 @@ def predict_image_class(model, image_path):
 # Load model and make a prediction
 if __name__ == "__main__":
     # Path to the .pt file and the input X-ray image
-    model_path = '/Users/yogeshbabnabat/Desktop/Rockport/Programming/MinorProject/src/covid_classifier.pt'  # Replace with your model file path
+    model_path = '''C:\\Users\\senga\\OneDrive\\Desktop\\MinorProject\\COVID-19_Radiography_Dataset''' # Replace with your model file path
     image_path = 'src/viral.png'       # Replace with your X-ray image file path
 
     # Load model and predict
